@@ -15,7 +15,7 @@ function whoAmI()
 
 // set the handle of this node
 function setHandle(handle) {
-
+    console.log("Started");
     // get old handle (if any)
     var oldHandle = getAnchor(Me + ":handle");
 
