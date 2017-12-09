@@ -131,7 +131,7 @@ $(window).ready(function () {
     $("#handle").on("click", "", openSetHandle);
     $('#setHandleButton').click(doSetHandle);
     $("#players").on("click", "li", selectPlayer);
-    $("#req-toss-button").click(requestToss);
+    $("#vote-button").click(requestToss);
     getProfile();
     setInterval(getHandles, 2000);
 });
